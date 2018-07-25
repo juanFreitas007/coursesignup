@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  juan.coursesignup.webapi:
+    image: ${DOCKER_REGISTRY}juancoursesignupwebapi
+    build:
+      context: .
+      dockerfile: Juan.CourseSignup.WebApi\Dockerfile
